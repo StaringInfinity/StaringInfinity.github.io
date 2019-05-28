@@ -7,7 +7,7 @@
 
 <html class="theme-next muse use-motion" lang>
 <head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="UTF-8">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="theme-color" content="#222">
@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="1$ J_\alpha(x) = \sum_&amp;#123;m=0&amp;#125;^\infty \frac&amp;#123;(-1)^m&amp;#125;&amp;#123;m! \Gamma (m + \alpha + 1)&amp;#125; &amp;#123;\left(&amp;#123; \frac&amp;#123;x&amp;#125;&amp;#123;2&amp;#125; &amp;#125;\right)&amp;#125;^&amp;#123;2m + \alpha&amp;#125">
+<meta name="description" content="$$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {\left({ \frac{x}{2} }\right)}^{2m + \alpha} \text {，行内公式示例} $$">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hello hexo markdown">
 <meta property="og:url" content="http://yoursite.com/2019/05/26/hello-hexo-markdown/index.html">
 <meta property="og:site_name" content="StaringInfinity">
-<meta property="og:description" content="1$ J_\alpha(x) = \sum_&amp;#123;m=0&amp;#125;^\infty \frac&amp;#123;(-1)^m&amp;#125;&amp;#123;m! \Gamma (m + \alpha + 1)&amp;#125; &amp;#123;\left(&amp;#123; \frac&amp;#123;x&amp;#125;&amp;#123;2&amp;#125; &amp;#125;\right)&amp;#125;^&amp;#123;2m + \alpha&amp;#125">
+<meta property="og:description" content="$$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {\left({ \frac{x}{2} }\right)}^{2m + \alpha} \text {，行内公式示例} $$">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-05-28T04:07:37.230Z">
+<meta property="og:updated_time" content="2019-05-28T13:40:05.237Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hello hexo markdown">
-<meta name="twitter:description" content="1$ J_\alpha(x) = \sum_&amp;#123;m=0&amp;#125;^\infty \frac&amp;#123;(-1)^m&amp;#125;&amp;#123;m! \Gamma (m + \alpha + 1)&amp;#125; &amp;#123;\left(&amp;#123; \frac&amp;#123;x&amp;#125;&amp;#123;2&amp;#125; &amp;#125;\right)&amp;#125;^&amp;#123;2m + \alpha&amp;#125">
+<meta name="twitter:description" content="$$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {\left({ \frac{x}{2} }\right)}^{2m + \alpha} \text {，行内公式示例} $$">
 
 
 
@@ -125,7 +125,7 @@
 
 
 
-  <title>hello hexo markdown | StaringInfinity</title>
+  <title>hello hexo markdown | StaringInfinity</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
 
 
@@ -144,7 +144,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -299,7 +299,7 @@
       
 
       
-        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ J_\alpha(x) = \sum_&#123;m=0&#125;^\infty \frac&#123;(-1)^m&#125;&#123;m! \Gamma (m + \alpha + 1)&#125; &#123;\left(&#123; \frac&#123;x&#125;&#123;2&#125; &#125;\right)&#125;^&#123;2m + \alpha&#125; \text &#123;，行内公式示例&#125; $</span><br></pre></td></tr></table></figure>
+        <p>$$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {\left({ \frac{x}{2} }\right)}^{2m + \alpha} \text {，行内公式示例} $$</p>
 
       
     </div>
@@ -621,6 +621,28 @@
   
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  
+
 
   
 
